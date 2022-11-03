@@ -1,0 +1,109 @@
+.wrapper {
+    margin:10px;
+}
+.card-grid {
+    margin: 10;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 40px;
+    justify-items: center;
+    text-align: center;
+    font-family: arial;
+
+}
+
+ .not-found {
+    display: block;
+    text-align: left;
+}
+
+.not-found div {
+    margin:20px;
+    padding:10px
+}
+
+
+.not-found img {
+    max-width: 700px;
+    height: 500px;
+}
+.card {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: 1px solid rgb(0, 0, 0);
+   
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-content {
+    padding:20px;
+    justify-content: center;
+}
+
+.card-content h2 {
+    display: block;
+    font-size: medium;
+    font-weight: bolder;
+    -webkit-line-clamp: none;
+    -webkit-box-orient: none;
+    overflow: hidden;
+
+}
+
+.price {
+    color: rgb(57, 54, 54);
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  
+.card-image {
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.card-image img {
+    margin-top: -13px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-list li span{
+    margin-top: 10px; 
+}
+
+.card Button {
+    border: none;
+    outline: 0;
+    margin: 5px;
+    padding: 12px;
+    color: white;
+    background-color: rgb(48, 43, 43);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+  
+.card Button :hover{
+    opacity: 0.7;
+}
+
+
+.category-nav{
+    background-color: rgb(219, 214, 211);
+    justify-content: center;
+    height:100px;
+    padding:2px;
+}
